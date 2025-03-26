@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | SnapVision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* Navigation Menu */
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 10px 20px;
+    font-size: 22px;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+#menu a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+/* Intro Section */
+#intro, #about, #contact {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 40px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #f8f8f8;
+    font-size: 26px;
+}
+
+p {
+    color: rgb(78, 161, 216);
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Featured Image */
+#featured img {
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: transform 0.3s;
+}
+
+#featured img:hover {
+    transform: scale(1.1);
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.2);
+}
+
+</style>
+<body>
+
+    <div id="menu">
+        <a href="home.html">🏠 Home</a>
+        <a href="gallery.html">📷 Gallery</a>
+        <a href="about.html">ℹ️ About</a>
+        <a href="contact.html">📞 Contact</a>
+    </div>
+
+    <div id="intro">
+        <h2>Welcome to SnapVision! 📸✨</h2>
+        <p style="color:whitesmoke;">"Where memories come to life! Organize, enhance, and share your favorite moments seamlessly! 🚀"</p>
+    </div>
+
+    <div id="featured">
+        <img src="event2.png" alt="Gallery Preview">
+        <p style="color:whitesmoke;">📷 Explore our latest AI-enhanced collections!</p>
+    </div>
+
+</body>
+</html>
